@@ -81,8 +81,17 @@ Once the dependencies are installed you can then run the Backend server.
 
 Before running the server make sure the location variable is changed to the location of your project (us or eu) and you set the FLASK_APP environment variable
 
+**Mac/Linux**
+
 ```bash
 export FLASK_APP=main.py
+```
+
+
+**Windows**
+
+```powershell
+$Env:FLASK_APP = "main.py"
 ```
 
 Then you can run the flask application.
